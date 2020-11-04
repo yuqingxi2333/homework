@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1d053b4-0d30-4206-93c5-fce6daf891dd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/System/apache-maven-3.5.2/bin" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=utf-8" />
+  </component>
+  <component name="ProjectId" id="1jWkDiBGW9W9GxV6rdtW1dOO8nC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Yuqingxi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1d053b4-0d30-4206-93c5-fce6daf891dd" name="Default Changelist" comment="" />
+      <created>1603927117703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603927117703</updated>
+      <workItem from="1603927118958" duration="29000" />
+      <workItem from="1603927161352" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603927146847">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2334" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1603927146847" />
+    <state x="2268" y="83" key="SettingsEditor" timestamp="1603927130217">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2268" y="83" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1603927130217" />
+  </component>
+</project>
