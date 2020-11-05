@@ -113,8 +113,14 @@
                                         <i class="fa fa-file-o"></i> 新建
                                     </button>
 
-                                    <button type="button" class="btn btn-default" title="刷新">
-                                        <i class="fa fa-refresh"></i> 刷新
+                                    <form action="${pageContext.request.contextPath}/user/importExcel.do" method="post" enctype="multipart/form-data">
+                                        选择要上传的文件<input type="file" name="upload">
+                                        <input type="submit" value="上传">
+                                    </form>
+
+                                    <button type="button" class="btn btn-default" title="导出"
+                                            onclick="location.href='${pageContext.request.contextPath}/user/exportExcel.do'">
+                                        <i class="fa fa-file-o"></i> 导出
                                     </button>
                                 </div>
                             </div>

@@ -56,7 +56,7 @@ public class UserServiceImpl implements UserService {
      * @Auto 于清晰
      */
     private Collection<SimpleGrantedAuthority> getAuthority() {
-        List<SimpleGrantedAuthority> list = new ArrayList<>();
+        List<SimpleGrantedAuthority> list = new ArrayList<SimpleGrantedAuthority>();
         list.add(new SimpleGrantedAuthority("ROLE_USER"));
         return list;
     }
@@ -68,7 +68,7 @@ public class UserServiceImpl implements UserService {
      * @Auto 于清晰
      */
     private Collection<SimpleGrantedAuthority> getAuthority(List<Role> rolesList) {
-        List<SimpleGrantedAuthority> list = new ArrayList<>();
+        List<SimpleGrantedAuthority> list = new ArrayList<SimpleGrantedAuthority>();
         for (Role role : rolesList) {
             list.add(new SimpleGrantedAuthority("ROLE_" + role.getRoleName()));
         }

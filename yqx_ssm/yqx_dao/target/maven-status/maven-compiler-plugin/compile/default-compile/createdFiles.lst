@@ -1,0 +1,8 @@
+com\yqx\dao\MemberDao.class
+com\yqx\dao\RoleDao.class
+com\yqx\dao\TravellerDao.class
+com\yqx\dao\PermissionDao.class
+com\yqx\dao\OrdersDao.class
+com\yqx\dao\SysLogDao.class
+com\yqx\dao\UserDao.class
+com\yqx\dao\ProductDao.class

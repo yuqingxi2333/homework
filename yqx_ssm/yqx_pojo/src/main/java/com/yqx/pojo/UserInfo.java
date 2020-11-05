@@ -15,6 +15,20 @@ public class UserInfo {
     private String statusStr;
     private List<Role> roles;
 
+    public UserInfo(String id, String username, String email, String password, String phoneNum, int status, String statusStr, List<Role> roles) {
+        this.id = id;
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.phoneNum = phoneNum;
+        this.status = status;
+        this.statusStr = statusStr;
+        this.roles = roles;
+    }
+
+    public UserInfo() {
+    }
+
     @Override
     public String toString() {
         return "UserInfo{" +
@@ -80,14 +94,15 @@ public class UserInfo {
 
     /**
      * Day03 查询用户状态
+     *
      * @return
      * @AUTO 于清晰
      */
     public String getStatusStr() {
-        if ( status == 0 ){
+        if (status == 0) {
             statusStr = "关闭";
         }
-        if ( status == 1 ){
+        if (status == 1) {
             statusStr = "开启";
         }
         return statusStr;
@@ -103,5 +118,15 @@ public class UserInfo {
 
     public void setRoles(List<Role> roles) {
         this.roles = roles;
+    }
+
+    // 扩展
+    // 用户实体类配置构造方法
+    public UserInfo(Object[] obj) {
+        this.username = obj[0].toString();
+        this.password = obj[1].toString();
+        this.phoneNum = obj[2].toString();
+        this.email = obj[3].toString();
+        this.status = ((Double) obj[4]).intValue();
     }
 }

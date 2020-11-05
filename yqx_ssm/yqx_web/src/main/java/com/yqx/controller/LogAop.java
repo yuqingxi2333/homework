@@ -20,8 +20,8 @@ import java.util.Date;
 import javax.servlet.http.*;
 
 // 创建切面 完成日志记录功能
-@Component
-@Aspect // 代表这是一个切面
+// @Component
+// @Aspect // 代表这是一个切面
 public class LogAop {
 
     // 注入Service
